@@ -246,5 +246,3 @@ while True:
    schedule.run_pending()
    time.sleep(1)
 
-#Use notifications in daft and email settings to get emailed from them and then use Gmail API to trigger the code*https://developers.google.com/gmail/api/guides?hl=es-419()
-
