@@ -66,17 +66,17 @@ python main.py
    
 The script will open Google Chrome using Selenium WebDriver.
 
-3. Sign In:
+2. Sign In:
    
 The script will sign in to Daft.ie using the provided credentials.
 
-5. Search and Apply:
+3. Search and Apply:
    
 The script will search for rental properties and apply to the ones that have not been applied to before.
 
-7. Scheduling(Optional):
+4. Scheduling(Optional):
    
-The script uses the schedule library to run the main_program function at specified intervals.
+The script uses the schedule library to run the main_program function at specified intervals(or you can do this as well from the Terminal using a command to schedule the program to run).
 
 
 
