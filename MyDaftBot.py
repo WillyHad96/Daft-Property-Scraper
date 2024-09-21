@@ -72,7 +72,7 @@ def sign_in(driver):
 
     password = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(password_locator))
     password.clear()
-    password.send_keys("84264325Gtm.")
+    password.send_keys("yourpassword")
 
     sign_in_button_locator = (By.XPATH, '//*[@id="login"]')
     click_element(driver, *sign_in_button_locator)
